@@ -2,17 +2,103 @@ html, body {
     margin: 0;
 }
 
-
-.Marathon{
-    text-align: center;
-    background: url("https://images3.alphacoders.com/746/746694.jpg ") no-repeat center center;
-    background-size: cover;
-    height: 600px;
+h1, h2, a, p{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 
 }
 
+p {
+    font-family: Helvetica, Arial, sans-serif;
+}
 
 
+header {
+    text-align: center;
+    background: url("https://images3.alphacoders.com/746/746694.jpg ") no-repeat center center;
+    background-size: cover;
+    height: 700px;
 
+}
 
+.container h1{
+    font-size: 100px;
+    color: white;
+    margin-bottom: 0;
+}
 
+.container p {
+    margin-top: 0;
+    color: white;
+    font-size: 25px;
+}
+
+header .container {
+    position: relative;
+    top: 100px;
+}
+
+header .btn {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header div{
+    display: inline-block;
+}
+
+nav ul{
+    display: inline-block;
+
+}
+
+nav ul li{
+    display: inline;
+    padding: 140px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    color: white;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.btn:hover{
+
+}
+
+nav{
+    background-color: #1c1c1c;
+
+}
+
+section h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+section{
+    margin-top:;
+    text-align: center;
+    background: url("http://i.imgur.com/VsWq8P9.jpg") no-repeat center center;
+    background-size: cover;
+    height: 700px;
+
+}
+
+footer{
+    background-color: #1c1c1c;
+    padding-top: 40px;
+
+}
