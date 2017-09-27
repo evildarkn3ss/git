@@ -1,38 +1,38 @@
-.anim{
+.anim {
     position: relative;
-    width: auto;
+    width: 50%;
 }
 
 .image {
-    opacity: 1;
     display: block;
     width: 1519px;
     height: 700px;
-    transition: .5s ease;
-    backface-visibility: hidden;
 }
 
-.middle {
-    transition: .5s ease;
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 1519px;
+    height: 700px;
     opacity: 0;
+    transition: .5s ease;
+    background-color: #1c1c1c;
+}
+
+.anim:hover .overlay {
+    opacity: 0.5;
+}
+
+.text {
+    opacity: 1;
+    color: white;
+    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
-
+    -ms-transform: translate(-50%, -50%);
 }
-
-.anim:hover .image {
-    opacity: 0.5;
-}
-
-.anim:hover .middle {
-    opacity: 1;
-}
-
-.text {
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
