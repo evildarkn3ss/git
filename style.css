@@ -2,7 +2,7 @@ html, body {
     margin: 0;
 }
 
-h1, h2, a, p{
+h1, h2, h3, a, p{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 
@@ -35,7 +35,7 @@ header {
 
 header .container {
     position: relative;
-    top: 100px;
+    top: 150px;
 }
 
 header .btn {
@@ -84,12 +84,15 @@ nav{
 }
 
 section h2{
+    padding-top: 30px;
+    font-size: 80px;
+    color: white;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 section{
-    margin-top:;
+    margin-top: 0;
     text-align: center;
     background: url("http://i.imgur.com/VsWq8P9.jpg") no-repeat center center;
     background-size: cover;
@@ -102,3 +105,26 @@ footer{
     padding-top: 40px;
 
 }
+
+article h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+article{
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    padding-top: 10px;
+    background-color: #1c1c1c;
+    float: left;
+    margin: 100px;
+    background: rgba(28,28,28,0.8);
+
+
+}article p{
+    text-transform: lowercase;
+     color: white;
+ }
+
