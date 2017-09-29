@@ -10,6 +10,7 @@ h1, h2, h3, a, p, footer{
 }
 
 p {
+    margin-top: 8px;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -87,25 +88,26 @@ nav{
 
 
 article h3{
-    padding-top: 20px;
-    font-size: 40px;
+    padding-top: 5px;
+    font-size: 30px;
+
 }
 
 section h2{
     padding-top: 30px;
     font-size: 80px;
     color: white;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
 section{
     margin-top: 0;
     text-align: center;
-    background: url("http://i.imgur.com/VsWq8P9.jpg") no-repeat center center;
+    background: url("https://images7.alphacoders.com/819/819585.jpg") no-repeat center center;
+    background-attachment: fixed;
     background-size: cover;
     height: 700px;
-
 }
 
 footer{
@@ -113,34 +115,36 @@ footer{
     padding-top: 20px;
     padding-bottom:20px;
     padding-left:20px;
-
 }
 
 article h3{
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
     color: white;
 }
 
- {
-    border-radius: 30px;
-    width: 300px;
-    height: 300px;
-    padding-top: 10px;
-    background-color: #1c1c1c;
-    float: left;
-    margin: 100px;
-    background: rgba(28,28,28,0.8);
-
-
-}article p{
-      padding-left: 25px;
-        padding-right: 10px;
+article p{
+     padding-left: 25px;
+     padding-right: 10px;
       color: white;
-    font-size: 22px;
+    font-size:16px;
     text-align: center;
     text-transform: none;
  }
 
+article{
+    padding-top: 100px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+
+}
+
+.flex{
+    width: 5000px;
+    height: 250px;
+    background: rgba(28,28,28,0.95);
 
 
+}
