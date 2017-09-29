@@ -1,0 +1,16 @@
+.container{
+    width: 1200px;
+    height: 900px;
+    background-color: darkred;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: #1c1c1c;
+}

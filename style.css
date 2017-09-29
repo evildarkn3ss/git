@@ -2,9 +2,10 @@ html, body {
     margin: 0;
 }
 
-h1, h2, h3, a, p{
+h1, h2, h3, a, p, footer{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+    color: white;
 
 }
 
@@ -17,6 +18,7 @@ header {
     text-align: center;
     background: url("https://images3.alphacoders.com/746/746694.jpg ") no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
     height: 700px;
 
 }
@@ -83,6 +85,12 @@ nav{
 
 }
 
+
+article h3{
+    padding-top: 20px;
+    font-size: 40px;
+}
+
 section h2{
     padding-top: 30px;
     font-size: 80px;
@@ -102,7 +110,9 @@ section{
 
 footer{
     background-color: #1c1c1c;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left:20px;
 
 }
 
@@ -112,7 +122,7 @@ article h3{
     color: white;
 }
 
-article{
+ {
     border-radius: 30px;
     width: 300px;
     height: 300px;
@@ -124,7 +134,13 @@ article{
 
 
 }article p{
-    text-transform: lowercase;
-     color: white;
+      padding-left: 25px;
+        padding-right: 10px;
+      color: white;
+    font-size: 22px;
+    text-align: center;
+    text-transform: none;
  }
+
+
 

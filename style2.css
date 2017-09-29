@@ -1,0 +1,17 @@
+article{
+    padding-top: 60px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+
+}
+
+.flex{
+    border-radius: 40px;
+    width: 460px;
+    height: 400px;
+    background: rgba(28,28,28,0.8);
+
+
+}
