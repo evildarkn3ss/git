@@ -144,7 +144,16 @@ article{
 .flex{
     width: 5000px;
     height: 250px;
-    background: rgba(28,28,28,0.95);
+    background: rgba(28,28,28,0.85);
 
 
+}
+
+aside{
+    margin-top: 0;
+    text-align: center;
+    background: url("https://4.bp.blogspot.com/-gp2iZ6G3cWY/U-cm84yK3pI/AAAAAAABHJ0/DvrKiye4Uqo/s0/seoul+landscape+night_Ultra+HD.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
 }
