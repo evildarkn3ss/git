@@ -1,14 +1,55 @@
 html, body{
     font-family: 'Oswald', sans-serif;
+    color: white;
+    margin: 0;
+
 }
 
-* { box-sizing: border-box}
 
-#Inschrijving {
-    width: 700px;
-    border: 1px; solid-color: #bbb;
-    background-color: #f8f8f8;
-    border-radius: 8px;
+
+.achtergrond{
+    background-image: url("Rotterdam.jpg");
+    background-size: cover;
+    height: 990px   ;
+
+}
+
+.container {
+    width: 600px;
+    margin: auto;
     padding: 20px;
-    margin:0 auto;
 }
+
+#Inschrijving{
+    background: rgba(30,144,255,0.8);
+    border-radius: 8px;
+    border: 1px; solid-color: #bbb;
+    padding: 20px;
+}
+
+#Inschrijving label, #Inschrijving input, #Inschrijving select {
+    display: flex;
+    margin-top: 3px;
+}
+
+#inschrijving label, #Inschrijving select, #Inschrijving textarea {
+    margin-bottom: 20px;
+    padding: 6px;
+    width: 350px;
+}
+
+input[name="referentie"] {
+    float: left;
+    margin-right: 10px;
+    width:auto !important;
+    clear: left;
+}
+
+h4{
+    clear: left;
+}
+
+img{
+    filter: blur(5px);
+}
+

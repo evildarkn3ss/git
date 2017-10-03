@@ -7,34 +7,89 @@
 </head>
 
     <body>
+    <div class="achtergrond">
+
+    <div class="container">
         <form id="Inschrijving">
+
+            <!-- Persoonlijke informatie -->
+
             <label for="voornaam">Voornaam:</label>
             <input id="voornaam" name="Voornaam" type="text"/>
+
             <br>
+
             <label for="Achternaam">Achternaam:</label>
             <input id="Achternaam" name="Achternaam" type="text"/>
+
             <br>
+
             <label for="Geboorte Datum">Geboorte Datum:</label>
             <input id="Geboorte Datum" name="Geboorte Datum" type="text"/>
+
             <br>
-            <label for="Stad">Stad:</label>
-            <input id="Stad" name="Stad" type="text"/>
-            <br>
-            <label for="Postcode">Postcode:</label>
-            <input id="Postcode" name="Postcode" type="text"/>
-            <br>
+
+            <!-- Registratie -->
+
             <label for="Gebruikersnaam">Gebruikersnaam:</label>
             <input id="Gebruikersnaam" name="Gebruikersnaam" type="text"/>
+
             <br>
+
             <label for="Wachtwoord">Wachtwoord:</label>
             <input id="Wachtwoord" name="Wachtwoord" type="password"/>
+
             <br>
+
             <label for="E-mail">E-mail Adress:</label>
             <input id="E-mail" name="E-mail" type="text"/>
 
+            <br>
+
+            <!-- adres en woonplaats -->
+
+            <label for="Straat">Straat en Huisnummer:</label>
+            <input id="Straat" name="Straat" type="text"/>
+
+            <br>
+
+            <label for="Postcode">Postcode:</label>
+            <input id="Postcode" name="Postcode" type="text"/>
+
+            <br>
+
+            <label for="Stad">Woonplaats:</label>
+            <br>
+            <select name="Stad" id="Stad">
+                <option>Rotterdam</option>
+                <option>Amsterdam</option>
+                <option>Dordtrecht</option>
+                <option>Den Haag</option>
+            </select>
+
+            <!-- referentie -->
+
+            <h4>Hoe heb je ons gevonden?</h4>
+            <input type="radio" name="referentie" id="Google"/>
+            <label for="Google" class="lbl-referrer">Google</label>
+            <br>
+            <input type="radio" name="referentie" id="Krant"/>
+            <label for="Krant" class="lbl-referrer">Krant</label>
+            <br>
+            <input type="radio" name="referentie" id="Social Media"/>
+            <label for="Social Media" class="lbl-referrer">Social Media</label>
+
+            <!-- motivatie -->
+            <br>
+            <label for="Bericht">Korte Motivatie</label>
+            <textarea id="Bericht" name="Bericht" rows="6" cols="50"></textarea>
+
+            <input type="submit" name="submit" id="submit" value="Verzenden" />
+
         </form>
+    </div>
 
-
+    </div>
 
     </body>
 
