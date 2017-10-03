@@ -20,7 +20,7 @@ header {
     background: url("https://images3.alphacoders.com/746/746694.jpg ") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 915px;
+    height: 902px;
 
 }
 
@@ -38,7 +38,7 @@ header {
 
 header .container {
     position: relative;
-    top: 150px;
+    top: 280px;
 }
 
 header .btn {
@@ -61,8 +61,8 @@ nav ul{
 
 nav ul li{
     display: inline;
-    padding: 140px;
-    font-size: 20px;
+    padding: 180px;
+    font-size: 24px;
 }
 
 nav ul li a{
@@ -83,6 +83,8 @@ a:link{
 
 nav{
     background-color: #1c1c1c;
+    width: 100%;
+    height: 70px;
 
 }
 
@@ -94,7 +96,7 @@ article h3{
 }
 
 section h2{
-    padding-top: 30px;
+    padding-top: 120px;
     font-size: 80px;
     color: white;
     margin-top: 0;
@@ -107,7 +109,7 @@ section{
     background: url("https://images7.alphacoders.com/819/819585.jpg") no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
-    height: 915px;
+    height: 902px;
 }
 
 footer{
@@ -133,7 +135,7 @@ article p{
  }
 
 article{
-    padding-top: 100px;
+    padding-top: 200px;
     padding-left: 0px;
     display: flex;
     justify-content: flex-start;
@@ -146,13 +148,12 @@ article{
     height: 250px;
     background: rgba(28,28,28,0.85);
 
-
 }
 
 aside{
     margin-top: 0;
     text-align: center;
-    background: url("https://4.bp.blogspot.com/-gp2iZ6G3cWY/U-cm84yK3pI/AAAAAAABHJ0/DvrKiye4Uqo/s0/seoul+landscape+night_Ultra+HD.jpg") no-repeat center center;
+    background: url("http://i.imgur.com/VsWq8P9.jpg") no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
     height: 915px;

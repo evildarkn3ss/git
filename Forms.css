@@ -1,0 +1,14 @@
+html, body{
+    font-family: 'Oswald', sans-serif;
+}
+
+* { box-sizing: border-box}
+
+#Inschrijving {
+    width: 700px;
+    border: 1px; solid-color: #bbb;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    margin:0 auto;
+}
