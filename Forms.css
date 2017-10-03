@@ -5,19 +5,22 @@ html, body{
 
 }
 
-
+h2{
+    margin:;
+    font-size: 30px;
+}
 
 .achtergrond{
     background-image: url("Rotterdam.jpg");
     background-size: cover;
-    height: 990px   ;
+    height: 100%;
 
 }
 
 .container {
     width: 600px;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 #Inschrijving{
@@ -49,7 +52,4 @@ h4{
     clear: left;
 }
 
-img{
-    filter: blur(5px);
-}
 

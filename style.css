@@ -119,6 +119,24 @@ footer{
     padding-left:20px;
 }
 
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 50px;
+}
+
+footer h4{
+    margin: 5px;
+    text-align: center;
+}
+
+footer ol{
+    margin:0;
+}
+
+
 article h3{
     margin-top: 0;
     margin-bottom: 0;
@@ -156,5 +174,5 @@ aside{
     background: url("http://i.imgur.com/VsWq8P9.jpg") no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
-    height: 915px;
+    height: 990px;
 }
