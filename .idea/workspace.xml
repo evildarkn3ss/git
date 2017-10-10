@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96ff9da2-79b7-4c3b-88bf-bd87d1d83146" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallerij.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gallerij.html" afterPath="$PROJECT_DIR$/Gallerij.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML.html" afterPath="$PROJECT_DIR$/HTML.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallerij.css" afterPath="$PROJECT_DIR$/gallerij.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +22,8 @@
           <file leaf-file-name="HTML.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/HTML.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="43" />
+                <state relative-caret-position="594">
+                  <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -42,8 +42,8 @@
           <file leaf-file-name="Gallerij.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Gallerij.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="558">
-                  <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+                <state relative-caret-position="90">
+                  <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
                   <folding />
                 </state>
               </provider>
@@ -56,8 +56,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                <state relative-caret-position="643">
+                  <caret line="185" column="0" lean-forward="true" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -76,8 +76,8 @@
           <file leaf-file-name="gallerij.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gallerij.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+                <state relative-caret-position="1062">
+                  <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -93,6 +93,7 @@
         <option value="Less File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -109,10 +110,12 @@
         <option value="$PROJECT_DIR$/style2.css" />
         <option value="$PROJECT_DIR$/Forms.html" />
         <option value="$PROJECT_DIR$/Forms.css" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/Gallerij.html" />
-        <option value="$PROJECT_DIR$/gallerij.css" />
         <option value="$PROJECT_DIR$/HTML.html" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/Gallery.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/gallerij.css" />
+        <option value="$PROJECT_DIR$/Gallerij.html" />
       </list>
     </option>
   </component>
@@ -124,8 +127,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-506" />
-    <option name="y" value="-15" />
+    <option name="x" value="565" />
+    <option name="y" value="-10" />
     <option name="width" value="1920" />
     <option name="height" value="1030" />
   </component>
@@ -194,7 +197,7 @@
       <workItem from="1506340723256" duration="1821000" />
       <workItem from="1506419140440" duration="32158000" />
       <workItem from="1506683865053" duration="3067000" />
-      <workItem from="1506691006487" duration="30263000" />
+      <workItem from="1506691006487" duration="39265000" />
     </task>
     <task id="LOCAL-00001" summary="html fill">
       <created>1506421158577</created>
@@ -280,16 +283,24 @@
       <option name="project" value="LOCAL" />
       <updated>1507034159970</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="deleted animations ++text2 aside + vids &#10;&#10;Added form and flexbox --update 2--">
+      <created>1507540350560</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1507540350560</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67312000" />
+    <option name="totallyTimeSpent" value="76314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1058" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22916667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22916667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -324,7 +335,8 @@
     <MESSAGE value="deleted animations ++text2 aside + vids" />
     <MESSAGE value="deleted animations ++text2 aside + vids &#10;&#10;Added form and flexbox" />
     <MESSAGE value="deleted animations ++text2 aside + vids &#10;&#10;Added form and flexbox --update 1--" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted animations ++text2 aside + vids &#10;&#10;Added form and flexbox --update 1--" />
+    <MESSAGE value="deleted animations ++text2 aside + vids &#10;&#10;Added form and flexbox --update 2--" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted animations ++text2 aside + vids &#10;&#10;Added form and flexbox --update 2--" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -463,18 +475,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallerij.css">
+    <entry file="file://$PROJECT_DIR$/Gallery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="2" lean-forward="false" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallerij.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gallerij.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        <state relative-caret-position="90">
+          <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -487,18 +515,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML.html">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="643">
+          <caret line="185" column="0" lean-forward="true" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/HTML.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="594">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
